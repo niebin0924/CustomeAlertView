@@ -15,6 +15,9 @@
 		4FEC85F61E6FFFCE006DC4DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FEC85F41E6FFFCE006DC4DB /* LaunchScreen.storyboard */; };
 		4FEC86011E6FFFCE006DC4DB /* CustomeAlertViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FEC86001E6FFFCE006DC4DB /* CustomeAlertViewTests.m */; };
 		4FEC860C1E6FFFCE006DC4DB /* CustomeAlertViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FEC860B1E6FFFCE006DC4DB /* CustomeAlertViewUITests.m */; };
+		4FEC861E1E700016006DC4DB /* CustomePopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FEC861A1E700016006DC4DB /* CustomePopView.m */; };
+		4FEC861F1E700016006DC4DB /* PopImageCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FEC861C1E700016006DC4DB /* PopImageCollectionViewCell.m */; };
+		4FEC86201E700016006DC4DB /* PopImageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FEC861D1E700016006DC4DB /* PopImageCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,11 @@
 		4FEC86071E6FFFCE006DC4DB /* CustomeAlertViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomeAlertViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FEC860B1E6FFFCE006DC4DB /* CustomeAlertViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomeAlertViewUITests.m; sourceTree = "<group>"; };
 		4FEC860D1E6FFFCE006DC4DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FEC86191E700016006DC4DB /* CustomePopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomePopView.h; sourceTree = "<group>"; };
+		4FEC861A1E700016006DC4DB /* CustomePopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomePopView.m; sourceTree = "<group>"; };
+		4FEC861B1E700016006DC4DB /* PopImageCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopImageCollectionViewCell.h; sourceTree = "<group>"; };
+		4FEC861C1E700016006DC4DB /* PopImageCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopImageCollectionViewCell.m; sourceTree = "<group>"; };
+		4FEC861D1E700016006DC4DB /* PopImageCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopImageCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +114,11 @@
 				4FEC85EC1E6FFFCE006DC4DB /* ViewController.h */,
 				4FEC85ED1E6FFFCE006DC4DB /* ViewController.m */,
 				4FEC85EF1E6FFFCE006DC4DB /* Main.storyboard */,
+				4FEC86191E700016006DC4DB /* CustomePopView.h */,
+				4FEC861A1E700016006DC4DB /* CustomePopView.m */,
+				4FEC861B1E700016006DC4DB /* PopImageCollectionViewCell.h */,
+				4FEC861C1E700016006DC4DB /* PopImageCollectionViewCell.m */,
+				4FEC861D1E700016006DC4DB /* PopImageCollectionViewCell.xib */,
 				4FEC85F21E6FFFCE006DC4DB /* Assets.xcassets */,
 				4FEC85F41E6FFFCE006DC4DB /* LaunchScreen.storyboard */,
 				4FEC85F71E6FFFCE006DC4DB /* Info.plist */,
@@ -249,6 +262,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FEC86201E700016006DC4DB /* PopImageCollectionViewCell.xib in Resources */,
 				4FEC85F61E6FFFCE006DC4DB /* LaunchScreen.storyboard in Resources */,
 				4FEC85F31E6FFFCE006DC4DB /* Assets.xcassets in Resources */,
 				4FEC85F11E6FFFCE006DC4DB /* Main.storyboard in Resources */,
@@ -277,6 +291,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4FEC85EE1E6FFFCE006DC4DB /* ViewController.m in Sources */,
+				4FEC861F1E700016006DC4DB /* PopImageCollectionViewCell.m in Sources */,
+				4FEC861E1E700016006DC4DB /* CustomePopView.m in Sources */,
 				4FEC85EB1E6FFFCE006DC4DB /* AppDelegate.m in Sources */,
 				4FEC85E81E6FFFCE006DC4DB /* main.m in Sources */,
 			);
